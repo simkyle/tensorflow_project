@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"three/examples/jsm/libs/dat.gui.module": [
+				"../../node_modules/@types/dat.gui"
+			]
+		},
+		"typeRoots": [
+			"node_modules/@types",
+			"src/client/types"
+		],
+		"target": "es2019",
+		"moduleResolution": "node",
+		"strict": true
+	},
+	"include": [
+		"**/*.ts"
+	],
+}
